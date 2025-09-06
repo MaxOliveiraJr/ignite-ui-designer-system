@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/tokens",
+  "name": "@ignite-ui/react",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -9,9 +9,10 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts  --watch"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
     "tsup": "^8.5.0",
     "typescript": "^5.9.2"
